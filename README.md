@@ -9,9 +9,9 @@ This lab is the hands-on implementation of concepts explored in the Isovalent la
 ---
 
 ## Architecture
-```
+
 ![Architecture](./k8s_cilium_architecture.svg)
-```
+
 
 Cilium is the only networking component in this cluster — it handles three roles that would normally require separate tools:
 
