@@ -87,7 +87,8 @@ rm cilium-linux-amd64.tar.gz
 cilium install \
   --version v1.18.2 \
   --set kubeProxyReplacement=true \
-  --set gatewayAPI.enabled=true
+  --set gatewayAPI.enabled=true \
+  --set l2announcements.enabled=true
 
 cilium status --wait
 ```
